@@ -1,0 +1,12 @@
+{
+  "name": "site-samara",
+  "version": "1.0.0",
+  "description": "Site institucional para consultoria em vendas e atendimento online",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/output.css --watch",
+    "build": "npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.0"
+  }
+}
